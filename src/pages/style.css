@@ -1,0 +1,129 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f9fafb, #f3f4f6);
+}
+
+/* Layout */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+}
+
+/* Header */
+.login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.logo-circle {
+  width: 74px;
+  height: 74px;
+  /* background-color: #1c4e80; */
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-header h1 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.login-header p {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-form label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+}
+
+.login-form input {
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.login-options a {
+  color: #1c4e80;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #1c4e80;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #153a5d;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.login-footer a {
+  color: #1c4e80;
+  font-weight: 500;
+  text-decoration: none;
+}
+
